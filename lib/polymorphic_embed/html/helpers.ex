@@ -109,6 +109,7 @@ if Code.ensure_loaded?(Phoenix.HTML) && Code.ensure_loaded?(Phoenix.HTML.Form) d
           errors: errors,
           action: parent_action,
           data: data,
+          action: parent_action,
           params: params,
           hidden: [{type_field_name, to_string(type)}],
           options: options
